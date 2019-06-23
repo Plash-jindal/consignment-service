@@ -73,7 +73,6 @@ func (s *service) GetConsignments(ctx context.Context, req *pb.GetRequest) (*pb.
 }
 
 func main() {
-
 	repo := &Repository{}
 
 	// Setup our gRPC server

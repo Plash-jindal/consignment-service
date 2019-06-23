@@ -1,9 +1,10 @@
-module github.com/Plash-jindal/consignment-service#dev
+module github.com/Plash-jindal/consignment-service#v1.0.1
 
 require (
-	github.com/Plash-jindal/consignment-service v0.0.0-20190623141315-70d60e8af6ce
-	github.com/golang/protobuf v1.3.1
+	github.com/Plash-jindal/consignment-service v1.0.1
 	github.com/micro/go-micro v1.7.0
-	github.com/micro/protobuf v0.0.0-20180321161605-ebd3be6d4fdb // indirect
-	google.golang.org/grpc v1.21.1
+	golang.org/x/crypto v0.0.0-20190621222207-cc06ce4a13d4 // indirect
+	golang.org/x/image v0.0.0-20190622003408-7e034cad6442 // indirect
+	golang.org/x/sys v0.0.0-20190621203818-d432491b9138 // indirect
+	honnef.co/go/tools v0.0.0-20190622161425-0d05180ad8c0 // indirect
 )
